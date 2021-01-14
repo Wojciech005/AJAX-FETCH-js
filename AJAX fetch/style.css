@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: arial;
+    font-size: 22px;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: rgb(135, 186, 199);
+}
+input, select {
+    font-size: 22px;
+}
+.user-list {
+    background-color: rgb(230, 207, 207);
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    box-shadow: 0 0 4px 0 #000;
+}
+.user {
+flex-basis: 30%;
+display: flex;
+}
+
+.user__image {
+    order: -1;
+    padding: 20px;
+}
+.user__name {
+    align-self: center;
+}
+.generator__input-name {
+    font-size: 25px; 
+}
+.geneator__select {
+    border: 2px solid white;
+    border-radius: 6px
+}
+.generator__input {
+    border: 2px solid white;
+    border-radius: 6px
+}
+.button {
+    margin-left: 10px;
+    padding: 2px 10px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: #fff;
+    letter-spacing: 1.5px;   
+    transition: 0.2s;
+}
+.button:hover {
+transform: scale(1.08);
+}
